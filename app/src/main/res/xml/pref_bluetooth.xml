@@ -1,0 +1,19 @@
+<android.support.v7.preference.PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <android.support.v7.preference.ListPreference
+        android:key="@string/pref_set_on_boot"
+        android:defaultValue="unset"
+        android:title="Set Bluetooth on Boot"
+        android:entryValues="@array/values"
+        android:entries="@array/values" />
+    <android.support.v7.preference.ListPreference
+        android:key="@string/pref_set_on_screen_on"
+        android:defaultValue="unset"
+        android:title="Set Bluetooth on Screen ON"
+        android:entryValues="@array/values"
+        android:entries="@array/values" />
+
+
+</android.support.v7.preference.PreferenceScreen>

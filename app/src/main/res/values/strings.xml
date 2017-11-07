@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">StartBluetooth</string>
+
+
+
+    <string name="pref_set_on_boot">SET_ON_BOOT</string>
+    <string name="pref_set_on_screen_on">SET_ON_SCREEN_ON</string>
+
+
+    <string-array name="values">
+        <item>unset</item>
+        <item>Enable</item>
+        <item>Disable</item>
+    </string-array>
+
+</resources>
